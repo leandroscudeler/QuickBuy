@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Entidades\Enumerados\TipoFormaPagamento.Enumcs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Entidades\Enumerados\TipoFormaPagamento.Enumcs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contratos\" />
+  </ItemGroup>
+
 </Project>
